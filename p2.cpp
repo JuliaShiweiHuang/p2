@@ -3,10 +3,10 @@
 #include <stdio.h>      /* printf, scanf, puts, NULL */
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
-
-
 
 int main () {
 	cout << "how many number of words?" << endl;
@@ -17,7 +17,7 @@ int main () {
 	// const string myArray[] = {"sunday", "monday", "tuesday"};
 
 	int wordArrayLength = sizeof(wordArray) / sizeof(wordArray[0]);
-
+	// cout << "wordArray length is: " << wordArrayLength << endl; // the length is: 10;
 	cout << "do you want to add a number? (Enter '1' meaning yes, '0' meaning no)" << endl;
 	bool addANumberOrNot;
 	cin >> addANumberOrNot;
@@ -26,9 +26,10 @@ int main () {
 	bool addASymbolOrNot;
 	cin >> addASymbolOrNot;
 
+	srand(time(0)); // generate random random number versus sudo random number
 	int generateRandomNumber; // generate a random integer between (0, sizeOfWordArray);
 	for ( int i = 0; i < numOfWords - 1; i++ ) {
-		generateRandomNumber = rand() % (numOfWords - 1) + 1;
+		generateRandomNumber = rand() % (wordArrayLength - 1) + 1; // generate a number between (0, sizeOfWordArray)
 		cout << wordArray[generateRandomNumber] << "-";
 	}
 
@@ -44,4 +45,3 @@ int main () {
 	}
 
 }
-
