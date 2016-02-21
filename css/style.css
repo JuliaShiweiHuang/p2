@@ -1,6 +1,15 @@
 .container .buttonHolder{
     text-align: center;
 }
+
+
+
+
+}
+
+div div p {
+    background-color: yellow;
+}
 img {
   zoom: 70%;
 }

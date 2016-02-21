@@ -13,7 +13,7 @@ int main () {
 	int numOfWords;
 	cin >> numOfWords;
 
-	string wordArray[] = {"fox", "loose", "cut", "chamber", "matter", "hunt", "country", "neck", "neck", "muscle"};
+	string wordArray[] = {"fox", "loose", "cut", "chamber", "matter", "hunt", "country", "neck", "corporation", "muscle"};
 	// const string myArray[] = {"sunday", "monday", "tuesday"};
 
 	int wordArrayLength = sizeof(wordArray) / sizeof(wordArray[0]);
