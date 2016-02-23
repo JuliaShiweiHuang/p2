@@ -15,7 +15,7 @@ https://github.com/ShiweiJuliaHuang/p2
 
 ## Description of the project:
 
-* This project need to create a password generator on the server side. Thus, javascript is not allowed. 
+* This project need to create a password generator on the server side. Thus, javascript is not allowed.
 * Form inputs to specify:
 1. How many words to use.
 2. Whether to include a number.
@@ -26,4 +26,4 @@ https://github.com/ShiweiJuliaHuang/p2
 * Image sitation: http://imgs.xkcd.com/comics/password_strength.png
 
 ## Link to the screencast demo:
-
+* https://youtu.be/5Oo89x7cKsY
