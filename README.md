@@ -21,5 +21,9 @@ https://github.com/ShiweiJuliaHuang/p2
 2. Whether to include a number.
 3. Whether to include a special symbol (for example, @).
 
+## Code sitation:
+Bootstrap: http://netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css
+Image sitation: http://imgs.xkcd.com/comics/password_strength.png
+
 ## Link to the screencast demo:
 
