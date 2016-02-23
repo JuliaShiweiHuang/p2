@@ -1,15 +1,25 @@
+/*css styling sheet for xkcd password generator*/
+
+h1, h3 {text-align:center;}
+p {text-align:center;}
+
+/*display password section css styling*/
+p.displayPassword {
+    font-size:3rem;
+    color:#f39c12;
+    background-color:#eee;
+    font-weight:800;
+    padding:15px;
+    font-family:consolas,courier;
+    margin-bottom:25px;
+    text-align:center;
+}
+/*'gimme another' button styling*/
 .container .buttonHolder{
     text-align: center;
 }
 
-
-
-
-}
-
-div div p {
-    background-color: yellow;
-}
+/*cartoon image styling*/
 img {
   zoom: 70%;
 }
