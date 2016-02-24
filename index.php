@@ -24,11 +24,11 @@
                 }
                 echo $wordArray[$randWordArrayIndex];
 
-				if ($_GET['add_number'] == 'addNumber') { # if checkbox is marked for "add a number" option;
+				if ($_GET['add_number'] == 'on') { # if checkbox is marked for "on";
 					echo rand(0, 99); # generate a random number between 0 and 99;
 				}
 
-				if ($_GET['add_symbol'] == 'addSymbol') { # if checkbox is marked for "add a symbol" option;
+				if ($_GET['add_symbol'] == 'on') { # if checkbox is marked for "on" option;
 					echo $symbolArray[$randSymbolArrayIndex]; # generate a '@' symbol;
 				}
                 ?>
@@ -42,10 +42,10 @@
 				<input maxlength=1 type='text' name='number_of_words' id='number_of_words' >  (Max 9)
 				<br>
 
-				<input type='checkbox' name='add_number' id='add_number' value='addNumber'>
+				<input type='checkbox' name='add_number' id='add_number' value='on'>
 				<label for='add_number'>Add a number</label>
 				<br>
-				<input type='checkbox' name='add_symbol' id='add_symbol' value='addSymbol' >
+				<input type='checkbox' name='add_symbol' id='add_symbol' value='on' >
 				<label for='add_symbol'>Add a symbol</label>
 			</p>
 
