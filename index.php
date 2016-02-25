@@ -17,7 +17,7 @@
             <p class ="displayPassword">
 				<!-- using a for loop to generate password based on customer's "number of words" input -->
                 <?php
-				if ($numOfWords < 9 ) { // added server side validation for the user input;
+				if ($numOfWords < 10 ) { // added server side validation for the user input;
 	                for ($i = 0; $i < $numOfWords-1; $i++) {
 	                    echo $wordArray[$randWordArrayIndex];
 	                    $randWordArrayIndex = rand(0, $wordArrayLength-1);
