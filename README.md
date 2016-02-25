@@ -9,7 +9,7 @@ http://www.shiweijuliahuang.me/p2/
 ## Live URL-2:
 http://p2.shiweijuliahuang.me
 
-## Github P1 link:
+## Github P2 link:
 https://github.com/ShiweiJuliaHuang/p2
 
 
