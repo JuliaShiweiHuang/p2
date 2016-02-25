@@ -56,7 +56,7 @@
 				<p style ="color: red;">
 					<!-- Question: if a user types a character, this function doesn't work though. Any suggestions? -->
 					<?php
-						if ($_GET['number_of_words'] != ('1' || '2' || '3' || '4' || '5' || '6' || '7' || '8' || '9') ) {
+						if ($_GET['number_of_words'] != (1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9) ) {
 							echo "Invalid symbol entered. Please enter a number between 1 and 9";
 						}
 					?>
